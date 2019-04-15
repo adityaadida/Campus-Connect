@@ -1,0 +1,145 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(8.png);
+    background-position: center;
+    background-size: contain;
+}
+.logo1 {
+    background: #;
+    width: 200px;
+}
+#logo111 {
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    top: 50px;
+    left: 70px;
+}
+img {
+    height: 100px;
+    width: 100px;
+    transform: translate(50%, 20%);
+
+}
+#commlogo {
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    transform: translate(50%,-10%);
+    height: 180px;
+    width: 600px;
+}
+
+#college {
+    font-family: sans-serif;
+    color: darkblue;
+    font-size: 100px;
+    position: absolute;
+    top: 0px;
+    transform: translate(10%,-60%);
+    left: 180px;
+    font-size-adjust: 150px;
+}
+.discussion
+{
+    height: 600px;
+    width: 1435px;
+    background: #;
+    border: 2px solid black;
+    position: absolute;
+    top:160px ;
+    left: 50px;
+}
+#he1
+{
+    font-family:fantasy;
+    position: absolute;
+    top:-35px; ;
+    left:10px ;
+    font-size: 40px;
+}
+#t1
+{
+    position: absolute;
+    top:60px; ;
+    left:50px ;
+    height: 150px;
+    width: 1335;
+    text-align: left;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    
+}
+#vote
+{
+    border: 2px solid black;
+    position: absolute;
+    top:210px ;
+    left:1000px ;
+    padding: 4px;
+    font-family: cursive;
+    color: aliceblue;
+    background: black;
+}
+#vote:hover
+{
+    background: grey;
+}
+#report
+{
+    border: 2px solid black;
+    position: absolute;
+    top:210px ;
+    left:1150px ;
+    padding: 4px;
+    font-family: cursive;
+    color: aliceblue;
+    background: black;
+}
+#report:hover
+{
+    background: grey;
+}
+#t2
+{
+    position: absolute;
+    top:300px; ;
+    left:50px ;
+    /*height: 100px;*/
+    width: 1335px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+#t3
+{
+    position: absolute;
+    top:460px; ;
+    left:50px ;
+    height: 80px;
+    width: 1335;
+}
+#he2
+{
+    font-family: fantasy;
+    position: absolute;
+    top: 260px;
+    left: 60px;
+}
+#he3
+{
+    position: absolute;
+    top:530px ;
+    left:50px; ;
+    padding: 4px;
+    background: black;
+    color: aliceblue;
+    border: 2px solid black;
+    font-family: cursive;
+}
+#he3:hover{
+    background: grey;
+}

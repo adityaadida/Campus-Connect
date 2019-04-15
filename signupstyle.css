@@ -1,0 +1,79 @@
+body
+{
+    background-image: url(8.png);
+    background-size: contain;
+    background-position: center;
+}
+.signup
+{
+    text-align: center;
+    width: 350px;
+    height: 600px;
+    background-color: aliceblue;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    opacity: 0.8;
+    border-radius: 20px;
+    box-shadow: 0 0 18px 0 grey;
+    
+}
+/*.signup:hover
+{
+  cursor: pointer;
+    background-color: aliceblue;
+    opacity: 0.8;
+}*/
+#registration
+{
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+    padding: 50px 0px;
+}
+#button
+{
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    outline: 0px;
+} 
+#ph
+{
+    padding: 10px;
+    width: 65px;
+    border-radius: 5px;
+}
+#phone
+{
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+}
+#rd
+{
+    margin-left: 30px;
+}
+#but
+{
+    color: gray;
+    font-size: 18px;
+}
+#butt
+{
+    margin: 30px;
+    padding: 15px;
+    border: 0px;
+    outline: 0px;
+    background: red;
+    color: aliceblue;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 20px;
+}
+#butt:hover
+{
+    background: #ffc107;  
+    color: black;
+}

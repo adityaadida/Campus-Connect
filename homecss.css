@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    background-image: url(8.png);
+    background-size: contain;
+    background-position: center;
+}
+
+header {}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    margin-top: 25px;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    border: 2px solid black;
+}
+
+ul li a:hover {
+    border: 2px solid black;
+    background-color: grey;
+    color: aliceblue;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    transform: translate(50%, 20%);
+
+}
+
+/*.box11/* my box
+{
+    background: red;
+    opacity: 0.7;
+    height: 580px;
+    width:300px;
+    top:125px;
+    left: 19px;
+    position: absolute;
+
+}*/
+#logo111 {
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    top: 50px;
+    left: 70px;
+}
+
+#commlogo {
+    position: absolute;
+    top: 265px;
+    left: -160px;
+    height: 180px;
+    width: 600px;
+}
+
+#college {
+    font-family: sans-serif;
+    color: darkblue;
+    font-size: 110px;
+    position: absolute;
+    left: 180px;
+    font-size-adjust: 150px;
+}
+
+.box1 {
+    background: transparent;
+    height: 580px;
+    width: 750px;
+    left: 750px;
+    top: 125px;
+    position: absolute;
+
+}
+
+#id11 {
+    position: absolute;
+    left: 0px;
+    font-family: serif;
+    font-style: oblique;
+    font-size: 70px;
+}
+
+.logo1 {
+    background: #;
+    width: 200px;
+}

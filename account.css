@@ -1,0 +1,106 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(8.png);
+    background-position: center;
+    background-size: contain;
+}
+.logo1 {
+    background: #;
+    width: 200px;
+}
+#logo111 {
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    top: 50px;
+    left: 70px;
+}
+img {
+    height: 100px;
+    width: 100px;
+    transform: translate(50%, 20%);
+
+}
+#commlogo {
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    transform: translate(50%,-10%);
+    height: 180px;
+    width: 600px;
+}
+
+#college {
+    font-family: sans-serif;
+    color: darkblue;
+    font-size: 100px;
+    position: absolute;
+    top: 0px;
+    transform: translate(10%,-60%);
+    left: 180px;
+    font-size-adjust: 150px;
+}
+.account{
+    height: 600px;
+    width: 1435px;
+    background: #;
+    border: 2px solid black;
+    position: absolute;
+    top:160px ;
+    left: 50px;
+    border: 2px solid black;
+}
+#he1
+{
+    font-family: fantasy;
+    position: absolute;
+    left: 10px;
+    top: -40px;
+    font-size: 40px;
+}
+#he2
+{
+    font-family: fantasy;
+    font-size: 20px;
+    position: absolute;
+    top:50px ;
+    left:50px ;
+}
+#he3
+{
+    position: absolute;
+    top:280px ;
+    left:50px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+#t1
+{
+    position: absolute;
+    top:330px ;
+    left:50px ;
+    height:150px ;
+    width:1335px ;
+    border: 2px solid black;
+}
+#he4
+{
+    position: absolute;
+    top:480px ;
+    left:50px;
+    font-family: fantasy;
+    font-size: 20px;    
+}
+#interests
+{
+    position: absolute;
+    top:550px ;
+    left:50px ;
+    border: 2px solid black;
+    background: black;
+    color: aliceblue;
+    font-family: cursive;
+    padding: 4px;
+}

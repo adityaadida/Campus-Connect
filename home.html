@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>
+        Home | College Community
+    </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="homecss.css">
+</head>
+<body>
+    <header>
+        <div class="mainbar">
+            <ul>
+                <li><a href="signup.html"> Sign Up</a> </li>
+                <li><a href="login.html"> Login</a> </li>
+                <li><a href="#"> About us</a> </li>
+            </ul>
+        </div>
+    </header>
+    <div class="logo1">
+        <a href="#"><img src="logo3.png" id="logo11"></a>
+    </div>
+    <div class="logo" id="immg">
+        <a href="#" ><img src="logo2.png"  id="logo111"></a>
+    </div>
+    <img src="logo6.png" id="commlogo">
+    <p id="college">COLLEGE</p>
+    <div class="box1">
+        <p id="id11">Explore the world of ideas,Creative thoughts and knowledge where you can learn and earn wisdom</p>
+    </div>
+    <script>
+        $(function(){
+            $('#logo11').slideUp(0).slideDown(600);
+            $('#commlogo').slideUp(0).slideDown(600);
+            $('#logo111').slideUp(0).delay(1000).slideDown(600);
+            $('#id11').toggle(0).delay(1100).slideDown(600);
+        });
+    </script>
+    
+</body>
+</html>

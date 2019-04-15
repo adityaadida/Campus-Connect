@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            MyAccount | page
+        </title>
+        <link rel="stylesheet" type="text/css" href="account.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="logo1">
+            <a href="#"><img src="logo3.png" id="logo11"></a>
+        </div>
+        <div class="logo" id="immg">
+            <a href="#" ><img src="logo2.png"  id="logo111"></a>
+        </div>
+        <img src="logo6.png" id="commlogo">
+        <p id="college">COLLEGE</p>
+        <div class="account">
+           <p id="he1">My Account</p>
+           <p id="he2">Previous posts</p>
+           <p id="he3">Dicussed posts</p>
+           <p id="he4">Interested in:</p>
+            <textarea id="t1">
+                posts
+            </textarea>
+            <select id="interests">
+                <option>Education</option>
+                <option>Entertainment</option>
+                <option>Social</option>
+                <option>General</option>
+            </select>
+        </div>
+        
+        
+        
+        <script>
+            $(function(){
+              $('#logo11').slideUp(0).slideDown(600);
+              $('#logo111').slideUp(0).delay(1000).slideDown(600);
+              });
+        </script>
+    </body>
+</html>
