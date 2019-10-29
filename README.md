@@ -4,3 +4,5 @@ A wide platform which makes the students to solve diverse real life challenges t
 
 
 This is an open source project, you can fork this repo and contribute your ideas.
+
+Link (only front end will be accessebile, because Git hub doesn't supports back end yet). https://adityaadida.github.io/Campus-Connect/
